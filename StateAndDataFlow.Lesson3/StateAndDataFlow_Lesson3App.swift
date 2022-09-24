@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct StateAndDataFlow_Lesson3App: App {
+    @StateObject private var userManager = UserManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartedView()
+                .environmentObject(UserManager())
         }
     }
 }
