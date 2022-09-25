@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC418CEF28E0C07D002568BD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC418CEE28E0C07D002568BD /* DataManager.swift */; };
+		CC418CF128E0C8D6002568BD /* ButtonsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC418CF028E0C8D6002568BD /* ButtonsViews.swift */; };
+		CC418CF328E0CB0F002568BD /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC418CF228E0CB0F002568BD /* TimerView.swift */; };
 		CC63F55228DF54B20052BCEF /* RegistarIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63F55128DF54B20052BCEF /* RegistarIView.swift */; };
 		CC63F55428DF55F90052BCEF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63F55328DF55F90052BCEF /* UserManager.swift */; };
 		CC63F55628DF5B370052BCEF /* StartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63F55528DF5B370052BCEF /* StartedView.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC418CEE28E0C07D002568BD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CC418CF028E0C8D6002568BD /* ButtonsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViews.swift; sourceTree = "<group>"; };
+		CC418CF228E0CB0F002568BD /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		CC63F55128DF54B20052BCEF /* RegistarIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistarIView.swift; sourceTree = "<group>"; };
 		CC63F55328DF55F90052BCEF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		CC63F55528DF5B370052BCEF /* StartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedView.swift; sourceTree = "<group>"; };
@@ -59,12 +65,15 @@
 		CCB010AA28DE08F200C00C15 /* StateAndDataFlow.Lesson3 */ = {
 			isa = PBXGroup;
 			children = (
+				CC418CEE28E0C07D002568BD /* DataManager.swift */,
 				CCB010AB28DE08F200C00C15 /* StateAndDataFlow_Lesson3App.swift */,
 				CCB010B928DE0F9100C00C15 /* TimeCounter.swift */,
 				CC63F55328DF55F90052BCEF /* UserManager.swift */,
 				CCB010AD28DE08F200C00C15 /* ContentView.swift */,
 				CC63F55128DF54B20052BCEF /* RegistarIView.swift */,
 				CC63F55528DF5B370052BCEF /* StartedView.swift */,
+				CC418CF228E0CB0F002568BD /* TimerView.swift */,
+				CC418CF028E0C8D6002568BD /* ButtonsViews.swift */,
 				CCB010AF28DE08F400C00C15 /* Assets.xcassets */,
 				CCB010B128DE08F400C00C15 /* Preview Content */,
 			);
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC418CF328E0CB0F002568BD /* TimerView.swift in Sources */,
 				CCB010BA28DE0F9100C00C15 /* TimeCounter.swift in Sources */,
 				CCB010AE28DE08F200C00C15 /* ContentView.swift in Sources */,
+				CC418CF128E0C8D6002568BD /* ButtonsViews.swift in Sources */,
 				CC63F55628DF5B370052BCEF /* StartedView.swift in Sources */,
+				CC418CEF28E0C07D002568BD /* DataManager.swift in Sources */,
 				CCB010AC28DE08F200C00C15 /* StateAndDataFlow_Lesson3App.swift in Sources */,
 				CC63F55428DF55F90052BCEF /* UserManager.swift in Sources */,
 				CC63F55228DF54B20052BCEF /* RegistarIView.swift in Sources */,

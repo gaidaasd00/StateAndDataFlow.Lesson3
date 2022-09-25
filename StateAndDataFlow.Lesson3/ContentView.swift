@@ -20,7 +20,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding(.top, 100)
             Spacer()
-            ButtonView(timer: timer)
+            ButtonsViews(timer: timer)
             Spacer()
         }
     }
@@ -33,7 +33,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct ButtonView: View {
+struct ButtonsViews: View {
     @ObservedObject var timer: TimeCounter
     var body: some View {
         Button(action: timer.startTimer) {
